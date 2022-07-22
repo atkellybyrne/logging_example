@@ -71,7 +71,7 @@ def error(x, y):
     try:
         x / y
     except ZeroDivisionError:
-        True
+        return True
     else:
         return False
 
